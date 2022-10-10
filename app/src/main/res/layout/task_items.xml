@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/layout"
+    android:background="@drawable/textview_border"
+    >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="First Task">
+
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="Task detail"
+        android:inputType="textPersonName"
+        android:text="task body"
+        android:layout_margin="10dp"
+        android:textSize="16sp">
+
+    </TextView>
+
+</LinearLayout>
